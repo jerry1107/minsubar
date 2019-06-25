@@ -433,20 +433,26 @@
 
         footer {
             width: 100vw;
-            height:500px;
-            background-color: #202020;
+            padding-bottom:calc(500/1440*100%);
             margin-top:100px;
             position:relative;
         }
 
-        .footlogo{
-            width:380px;
-            height:380px;
-            top:70px;
-            border-right:2px solid #b6b6b6;
+        .footlogo {
             position:absolute;
+            width:calc(1440/1440*100%);
+            height:calc(500/500*100%);
+            bottom:0;
+            left:0;
         }
 
+        .aboutus{
+            position:absolute;
+            width:calc(280/1440*100%);
+            height:calc(210/500*100%);
+            left:calc(580/1440*100%);
+            bottom:calc(240/500*100%);
+        }
         @media all and (max-width:1024px) {
             .carousel-item>h5 {
                 position: absolute;
@@ -610,7 +616,7 @@
         <h2>民俗圖輯</h2>
         <div class="minsucard">
             <div class="minsufoto">
-                <a>
+                <a h>
 
                     <img src="unnamed 14.jpg">
                     <img src="Background.jpg">
@@ -667,8 +673,8 @@
     </div>
 
     <footer>
-        <div class="footlogo"></div>
-        <div class="aboutus"></div>
+        <img class="footlogo" src="footer-05.png">
+        <a href="about us.html"><img class="aboutus" src="about-us.png"></a>
 
     </footer>
 
