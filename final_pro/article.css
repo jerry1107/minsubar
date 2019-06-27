@@ -1,0 +1,133 @@
+body{
+    margin:0;
+}
+.open {
+    width: 100vw;
+    padding-bottom: calc(0/1440*100%);
+}
+
+.headphoto {
+    width: 100vw;
+    margin: 0
+}
+
+article>p {
+    margin: 10 auto 40 auto;
+    width:586px;
+    max-width: 80%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.heading {
+    margin: 10 auto 40 auto;
+    width:586px;
+    max-width: 80%;
+    font-size: 24px;
+
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.caption {
+    max-width: 980px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+
+}
+
+figure {
+    text-align: center;
+    margin: 0 auto;
+    width: 980px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+h2 {
+    color: black;
+    font-weight: normal;
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 250px;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+.note {
+    color: black;
+    font-size: 12px;
+    width: 586px;
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+    line-height: 40px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    width: 586px;
+    font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif;
+    font-weight: lighter;
+}
+
+footer {
+    width: 100vw;
+    padding-bottom: calc(500/1440*100%);
+    margin-top: 100px;
+    position: relative;
+}
+
+.footlogo {
+    position: absolute;
+    width: calc(1440/1440*100%);
+    height: calc(500/500*100%);
+    bottom: 0;
+    left: 0;
+}
+
+.aboutus {
+    position: absolute;
+    width: calc(280/1440*100%);
+    height: calc(210/500*100%);
+    left: calc(580/1440*100%);
+    bottom: calc(240/500*100%);
+}
+
+.house {
+    position: absolute;
+    width: calc(59/1440*100%);
+    height: calc(59/500*100%);
+    left: calc(793/1440*100%);
+    bottom: calc(333/500*100%);
+}
+
+@media all and(max-width:750px) {
+    h1 {
+        color: white;
+        position: absolute;
+        left: 20px;
+        line-height: 75px;
+        font-size: 40px;
+        bottom: 400px;
+    }
+
+    p {
+        width: 80%;
+    }
+
+    article>p {
+        width: 80%;
+    }
+}
